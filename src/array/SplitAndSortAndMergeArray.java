@@ -40,7 +40,6 @@ public class SplitAndSortAndMergeArray {
 			}
 			else
 			{
-				//int j=0;
 				int j=i-split;
 				temp2[j]=arr[i];
 			}
@@ -69,7 +68,7 @@ public class SplitAndSortAndMergeArray {
 		}
 		System.out.println("Merged Array Is : "+Arrays.toString(arr));
 		arr=SortedArray(arr);
-		System.out.println("Sorted Array Is : "+Arrays.toString(arr));
+//		System.out.println("Sorted Array Is : "+Arrays.toString(arr));
 		
 
 }
