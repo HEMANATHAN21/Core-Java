@@ -4,17 +4,17 @@ public class FindFirstTwoMaxNum {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int arr[]={2,5,1,3};
+		int arr[]={2,5,5,1,3};
         int fmax=0;
         int smax=0;
         for(int i=0;i<arr.length;i++)
         {
-                if(arr[i]>fmax)
+                if(arr[i]>fmax )
                 {
                     smax=fmax;
                     fmax=arr[i];
                 }
-                else if(arr[i]>smax)
+                else if(arr[i]>smax && arr[i]!=fmax)
                 {
                     smax=arr[i];
                 }

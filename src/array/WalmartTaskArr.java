@@ -9,7 +9,6 @@ public class WalmartTaskArr
 		int[] newArr = new int[arr.length-1];
 		int j = 0;
 		int length = arr.length/2;
-		
 		for(int i=0;i<arr.length/2;i++)
 		{
 			newArr[j] = arr[length +i +1];
@@ -44,7 +43,6 @@ public class WalmartTaskArr
 		{
 			newArr[i] = arr[length - i];
 			newArr[arr.length/2 +i] = arr[i];
-			
 		}
 		
 		return newArr;
